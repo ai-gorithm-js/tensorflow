@@ -16,3 +16,5 @@ model.fit(xs, ys, {
     onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
   }
 })
+
+console.log('here')
